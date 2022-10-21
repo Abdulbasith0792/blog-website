@@ -18,7 +18,7 @@ export default function Home() {
      
       <main className={styles.main}>
         <h1 className={styles.title}>
-         <a>Hunting Coder</a>
+         <a>Coding Meow</a>
         </h1>
         <div className={styles.imgwrap}>
       <Image className={styles.img} src={'/christopher-gower-m_HRfLhgABo-unsplash.jpg'} width={418} height={313}/>
@@ -31,20 +31,20 @@ export default function Home() {
 
         <div className="blog">
        
-          <h2>Popular Blogs</h2>
-          <div className="blogpost">
+          <h2 className={styles.pop}>Popular Blogs</h2>
+          <div className={styles.BlogPost}>
             <h3>How to learn Next js in 2023</h3>
             <p>Lorem ipsum dolor sit amet consectetur.
             </p>
           </div>
-          <div className="blogpost">
+          <div className={styles.BlogPost}>
 
             <h3>How to learn Next js in 2023</h3>
             <p>Lorem ipsum dolor sit amet consectetur.
             </p>
           </div>
           
-          <div className="blogpost">
+          <div className={styles.BlogPost}>
             <h3>How to learn Next js in 2023</h3>
             <p>Lorem ipsum dolor sit amet consectetur.
             </p>

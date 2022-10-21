@@ -20,9 +20,10 @@ const Blog = (props) => {
         </div>
         {blog.map((blogitem) => {
           return (
-            <div key={blogitem.title}>
+            <div key={blogitem.title} className={styles.bloggy}>
               <Link href={`/blogpost/${blogitem.slug} `}>
                 <h3 className={styles.blogposth3}>{blogitem.title}</h3></Link>
+                <Link href={`/blogpost/${blogitem.slug} `}><img src={blogitem.image} alt="" className={styles.imgs} /></Link>
               <p className={styles.blogpostp}>{blogitem.content.substr(0, 140)}</p>
 
             </div>)

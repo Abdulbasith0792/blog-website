@@ -1,7 +1,4 @@
-.container {
- /* padding: 0 2rem; */
- /* margin-bottom: 10rem; */
-}
+
 
 .main {
   min-height: 40vh;
@@ -55,6 +52,8 @@
   margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  font-weight: bold;
+  color: purple;
 }
 
 .code {
@@ -130,7 +129,12 @@
 }
 
 .navbar{
-  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 1rem; */
+  background-color:  #EBEBE9 ;
+  backdrop-filter: blur(10px);
 }
 
 .navbar ul{
@@ -143,6 +147,11 @@
   margin: 0 20px;
   font-weight: bold;
   cursor: pointer;
+  color: black;
+  
+}
+.navbar ul li:hover{
+  color: gray;
 }
 .imgwrap {
   width: 418px;
@@ -153,4 +162,23 @@
 }
 .img {
   border-radius: 10px;
+}
+.icon {
+  color: black;
+  height: 3px;
+  width: 5px;
+}
+
+.pop{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.BlogPost{
+  border: 2px solid black;
+  border-color: #111;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 7px;
+  margin: 1rem;
 }

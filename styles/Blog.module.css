@@ -17,3 +17,24 @@
   cursor: pointer;
   width: 45vw;
 }
+.bloggy{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  /* padding: 1rem; */
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #F7F9E2;
+}
+
+.imgs{
+  width: 40%;
+  height: 20%;
+}
+@media screen and (min-width: 480px) {
+ .bloggy {
+  max-width: 50vw;
+  }
+}
